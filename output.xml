@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.4 on win32)" generated="20200726 03:49:26.880" rpa="false">
+<suite id="s1" name="前程贷接口自动化测试" source="D:\code\pingping\前程贷接口自动化测试.robot">
+<kw name="Run Keywords" library="BuiltIn" type="setup">
+<doc>Executes all the given keywords in a sequence.</doc>
+<arguments>
+<arg>用户登录环境准备</arg>
+<arg>${ip}</arg>
+<arg>${port}</arg>
+<arg>18206234550</arg>
+<arg>houlei5837</arg>
+<arg>AND</arg>
+<arg>标id环境准备</arg>
+<arg>${ip}</arg>
+<arg>${port}</arg>
+<arg>${return_1[1]["data"]["id"]}</arg>
+<arg>皮卡</arg>
+<arg>1000</arg>
+<arg>18.0</arg>
+<arg>6</arg>
+<arg>1</arg>
+<arg>1</arg>
+<arg>${return_1[1]["data"]["token_info"]["token"]}</arg>
+</arguments>
+<kw name="用户登录环境准备">
+<arguments>
+<arg>${ip}</arg>
+<arg>${port}</arg>
+<arg>18206234550</arg>
+<arg>houlei5837</arg>
+</arguments>
+<msg timestamp="20200726 03:49:27.005" level="FAIL">No keyword with name '用户登录环境准备' found.</msg>
+<status status="FAIL" starttime="20200726 03:49:27.005" endtime="20200726 03:49:27.005"></status>
+</kw>
+<status status="FAIL" starttime="20200726 03:49:27.003" endtime="20200726 03:49:27.006"></status>
+</kw>
+<test id="s1-t1" name="正常注册-手机号11位，密码16位，0管理员、昵称10位">
+<tags>
+<tag>maoyan</tag>
+</tags>
+<status status="FAIL" starttime="20200726 03:49:27.011" endtime="20200726 03:49:27.035" critical="yes">Parent suite setup failed:
+No keyword with name '用户登录环境准备' found.</status>
+</test>
+<test id="s1-t2" name="正常登录-手机号11位，密码16位">
+<status status="FAIL" starttime="20200726 03:49:27.037" endtime="20200726 03:49:27.040" critical="yes">Parent suite setup failed:
+No keyword with name '用户登录环境准备' found.</status>
+</test>
+<test id="s1-t3" name="正常充值">
+<status status="FAIL" starttime="20200726 03:49:27.041" endtime="20200726 03:49:27.042" critical="yes">Parent suite setup failed:
+No keyword with name '用户登录环境准备' found.</status>
+</test>
+<test id="s1-t4" name="正常提现">
+<status status="FAIL" starttime="20200726 03:49:27.044" endtime="20200726 03:49:27.046" critical="yes">Parent suite setup failed:
+No keyword with name '用户登录环境准备' found.</status>
+</test>
+<test id="s1-t5" name="正常改昵称">
+<status status="FAIL" starttime="20200726 03:49:27.060" endtime="20200726 03:49:27.061" critical="yes">Parent suite setup failed:
+No keyword with name '用户登录环境准备' found.</status>
+</test>
+<test id="s1-t6" name="正常查询用户信息">
+<status status="FAIL" starttime="20200726 03:49:27.065" endtime="20200726 03:49:27.067" critical="yes">Parent suite setup failed:
+No keyword with name '用户登录环境准备' found.</status>
+</test>
+<test id="s1-t7" name="正常增加项目">
+<status status="FAIL" starttime="20200726 03:49:27.070" endtime="20200726 03:49:27.073" critical="yes">Parent suite setup failed:
+No keyword with name '用户登录环境准备' found.</status>
+</test>
+<test id="s1-t8" name="正常审核项目">
+<status status="FAIL" starttime="20200726 03:49:27.077" endtime="20200726 03:49:27.079" critical="yes">Parent suite setup failed:
+No keyword with name '用户登录环境准备' found.</status>
+</test>
+<test id="s1-t9" name="正常投资">
+<status status="FAIL" starttime="20200726 03:49:27.082" endtime="20200726 03:49:27.083" critical="yes">Parent suite setup failed:
+No keyword with name '用户登录环境准备' found.</status>
+</test>
+<test id="s1-t10" name="正常获取项目列表">
+<status status="FAIL" starttime="20200726 03:49:27.086" endtime="20200726 03:49:27.111" critical="yes">Parent suite setup failed:
+No keyword with name '用户登录环境准备' found.</status>
+</test>
+<test id="s1-t11" name="正常审核项目1">
+<status status="FAIL" starttime="20200726 03:49:27.114" endtime="20200726 03:49:27.117" critical="yes">Parent suite setup failed:
+No keyword with name '用户登录环境准备' found.</status>
+</test>
+<test id="s1-t12" name="正常投资1">
+<status status="FAIL" starttime="20200726 03:49:27.120" endtime="20200726 03:49:27.122" critical="yes">Parent suite setup failed:
+No keyword with name '用户登录环境准备' found.</status>
+</test>
+<test id="s1-t13" name="正常注册">
+<status status="FAIL" starttime="20200726 03:49:27.127" endtime="20200726 03:49:27.128" critical="yes">Parent suite setup failed:
+No keyword with name '用户登录环境准备' found.</status>
+</test>
+<status status="FAIL" starttime="20200726 03:49:26.884" endtime="20200726 03:49:27.132">Suite setup failed:
+No keyword with name '用户登录环境准备' found.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="13">Critical Tests</stat>
+<stat pass="0" fail="13">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1">maoyan</stat>
+</tag>
+<suite>
+<stat pass="0" fail="13" id="s1" name="前程贷接口自动化测试">前程贷接口自动化测试</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20200726 03:49:26.996" level="ERROR">Error in file 'D:\code\pingping\前程贷接口自动化测试.robot': Resource file '..\key_words\key.robot' does not exist.</msg>
+<msg timestamp="20200726 03:49:26.999" level="ERROR">Error in file 'D:\code\pingping\前程贷接口自动化测试.robot': Resource file '..\variable.txt' does not exist.</msg>
+</errors>
+</robot>

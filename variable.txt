@@ -1,0 +1,4 @@
+*** Variables ***
+${zuowen_ip}      zuowen.api.juhe.cn
+${ip}             120.78.128.25
+${port}           8766
